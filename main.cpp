@@ -19,6 +19,9 @@ using namespace std;
 extern void task_mail();
 extern void miles2kilometers();
 extern void two_numbers();
+extern void naive_sort_3_values();
+extern void odd_even();
+extern void str2int();
 
 // ===========================================
 
@@ -105,6 +108,9 @@ int main() {
 //    task_mail();
 //    miles2kilometers();
 //    two_numbers();
+//    naive_sort_3_values();
+//    odd_even();
+    str2int();
 
 //    double i = 0.1;
 //
