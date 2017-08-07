@@ -197,3 +197,43 @@ void str2int() {
         cout << "Я не знаю такоrо числа!" << endl;
     }
 }
+
+
+void calc() {
+    /**
+     * Напишите программу, принимающую на входе символ операции с двумя операндами
+     * и выводящую на экран результат вычисления.
+     * Например:
+     *      + 100 3 . 14
+     *      * 4 5Глава 3
+     * Считайте символ операции в строку с именем operation
+     * и, используя инструкцию if, выясните, какую операцию хочет выполнить пользователь,
+     * например if (operation= " + " ).
+     * Считывайте операнды в переменные типа double.
+     * Выполните операции +, -, *· /, plus, minus. mul и div, имеющие очевидный смысл.
+     */
+
+    string operation;
+    double operand1, operand2, result = 0;
+
+    cout << "Введите выражение начиная со знака операции: ";
+    cin >> operation >> operand1 >> operand2;
+
+    if (operation == "+" || operation == "plus") {
+        result = operand1 + operand2;
+    }
+
+    if (operation == "-" || operation == "minus") {
+        result = operand1 + operand2;
+    }
+
+    if (operation == "*" || operation == "mul") {
+        result = operand1 + operand2;
+    }
+
+    if (operation == "/" || operation == "div") {
+        result = operand1 + operand2;
+    }
+
+    cout << "Результат: " << result << endl;
+}
