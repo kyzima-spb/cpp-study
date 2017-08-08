@@ -31,6 +31,7 @@ extern double do_something(double a, double b);
 int main() {
 //    section3_tasks();
 //    section4();
+    section4_tasks();
 
 
 //    cout << "Функция запущена с одним аргументом: " << do_something(6) << endl;
