@@ -343,3 +343,15 @@ void money_calc() {
          << " центов"
          << endl;
 }
+
+
+void section3_tasks() {
+//    task_mail();
+//    miles2kilometers();
+//    two_numbers();
+//    naive_sort_3_values();
+//    odd_even();
+//    str2int();
+//    calc();
+//    money_calc();
+}

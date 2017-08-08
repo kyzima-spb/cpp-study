@@ -14,25 +14,9 @@
 using namespace std;
 
 
-// Решения задач из главы 3
-
-extern void task_mail();
-extern void miles2kilometers();
-extern void two_numbers();
-extern void naive_sort_3_values();
-extern void odd_even();
-extern void str2int();
-extern void calc();
-extern void money_calc();
-
-// ===========================================
-
-
-// Глава 4
-
-extern void section4();
-
-// ===========================================
+extern void section3_tasks(); // Главы 3. Решения задач
+extern void section4();       // Глава 4
+extern void section4_tasks(); // Глава 4. Решения задач
 
 
 // Тестовые примеры
@@ -45,7 +29,9 @@ extern double do_something(double a, double b);
 
 
 int main() {
-    section4();
+//    section3_tasks();
+//    section4();
+
 
 //    cout << "Функция запущена с одним аргументом: " << do_something(6) << endl;
 //    cout << "Функция запущена с двумя аргументами int: " << do_something(12, 3) << endl;
