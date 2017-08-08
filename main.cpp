@@ -14,7 +14,7 @@
 using namespace std;
 
 
-// Решения задач
+// Решения задач из главы 3
 
 extern void task_mail();
 extern void miles2kilometers();
@@ -27,6 +27,14 @@ extern void money_calc();
 
 // ===========================================
 
+
+// Глава 4
+
+extern void section4();
+
+// ===========================================
+
+
 // Тестовые примеры
 
 extern int do_something(int a);
@@ -37,14 +45,7 @@ extern double do_something(double a, double b);
 
 
 int main() {
-//    task_mail();
-//    miles2kilometers();
-//    two_numbers();
-//    naive_sort_3_values();
-//    odd_even();
-//    str2int();
-//    calc();
-    money_calc();
+    section4();
 
 //    cout << "Функция запущена с одним аргументом: " << do_something(6) << endl;
 //    cout << "Функция запущена с двумя аргументами int: " << do_something(12, 3) << endl;
